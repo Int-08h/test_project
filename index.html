@@ -8,26 +8,47 @@
 
 	<title>Document</title>
 
-	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="style.css">
 	<script src="js/app.js" defer></script>
 
 </head>
 <body>
 
-	<header>
-		<div class="title">
-			Hello Anton!
-		</div>
-		<table style="border: 3px; background-color: green;">
-			<tr><td>Что делать?</td><td>Где делать?</td><td>Зачем?</td></tr>
-			<tr><td>Написать код</td><td>NGINX</td><td>учиться</td></tr>
-			<tr><td>1</td><td>2</td><td>3</td></tr>
-		</table>
-		<div class="dh">
-			<div class="Doom" style="color:red; font-size: 40px;">Hello Anton!!!</div>
-		</div>
 
+	<header class="header">
+		<div class="title">
+			<div class="title__logo">
+				<a class="title__logo_img" href="#">
+					<img class="logo1" src="logo1.png" alt="">
+				</a>
+			</div>
+			<div class="title__name"> Hello Anton!</div>
+			<div class="title__menu">
+				<div class="title__menu_1">
+					<a href="#">Нажми</a>
+				</div>
+				<div class="title__menu_1">
+					<a href="#">Сюда</a>
+				</div>
+				<div class="title__menu_1">
+					<a href="#">Мышкой</a>
+				</div>
+			</div> <!--  title__menu  -->
+		</div> <!--  title  -->
 	</header>
+
+
+	<div class="container">
+		<table class="tabl">
+					<tr><td>Что делать?</td><td>Где делать?</td><td>Зачем?</td></tr>
+					<tr><td>Написать код</td><td>NGINX</td><td>учиться</td></tr>
+					<tr><td>1</td><td>2</td><td>3</td></tr>
+		</table>
+		<div class="text">
+			<div class="text__text"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim eum ratione et ad, placeat voluptate molestias quidem maiores reprehenderit quis voluptates non animi natus eaque labore, tempore, deleniti commodi? Deserunt.</div>
+			<div class="text__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim eum ratione et ad, placeat voluptate molestias quidem maiores reprehenderit quis voluptates non animi natus eaque labore, tempore, deleniti commodi? Deserunt.</div>
+		</div>
+	</div> <!-- container -->
 
 </body>
 </html>
