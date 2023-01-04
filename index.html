@@ -7,9 +7,12 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 	<title>Document</title>
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/fontello.css">
+	<link type="image/x-icon" href="/favicon.ico" rel="shortcut icon">
 
 	<link rel="stylesheet" href="style.css">
-	<script src="js/app.js" defer></script>
+
 
 </head>
 <body>
@@ -19,19 +22,20 @@
 		<div class="title">
 			<div class="title__logo">
 				<a class="title__logo_img" href="#">
-					<img class="logo1" src="logo1.png" alt="">
+					<img class="logo1" src="img/logo1.png" alt="">
+					<img class="logo1" src="img/logo1.png" alt="">
 				</a>
 			</div>
 			<div class="title__name"> Hello Anton!</div>
 			<div class="title__menu">
 				<div class="title__menu_1">
-					<a href="#">Нажми</a>
+					<a class="title__menu_1_text" href="#">Нажми</a>
 				</div>
 				<div class="title__menu_1">
-					<a href="#">Сюда</a>
+					<a class="title__menu_1_text" href="#">Сюда</a>
 				</div>
-				<div class="title__menu_1">
-					<a href="#">Мышкой</a>
+				<div class="title__menu_1 menu_3">
+					<a class="title__menu_1_text" href="#">Мышкой</a>
 				</div>
 			</div> <!--  title__menu  -->
 		</div> <!--  title  -->
@@ -40,15 +44,112 @@
 
 	<div class="container">
 		<table class="tabl">
-					<tr><td>Что делать?</td><td>Где делать?</td><td>Зачем?</td></tr>
-					<tr><td>Написать код</td><td>NGINX</td><td>учиться</td></tr>
-					<tr><td>1</td><td>2</td><td>3</td></tr>
+					<tr><td>IT</td><td>Linux</td><td>CygWin</td><td>NGINX</td><td>HTML</td><td>CSS</td><td>Js</td></tr>
+					<tr><td>Tag's</td><td>Основы понимания работы Linux (основная механика - консоль)</td><td>Console: pwd (нынешнее расположение), cd (указать директорию), sudo (права адмиристратора), nano (посмотреть\использовать), shh (запустить), Ctrl+C (закончить команду), Ctrl+K (стереть строку), Ctrl+X (выйти\сохранить), ls (список), ls -lsa(весь список + скрытые), mc (Bios),
+					</td><td>a</td><td>b</td><td>c</td><td>d</td></tr>
+					<tr><td>Какие Tag's нужно узнать:</td><td>#</td><td>mkdir * cat * apt-cyg * top * chmod * touch * bash * echo * git diff * git log * git commit</td><td>a</td><td>b</td><td>c</td><td>d</td></tr>
 		</table>
 		<div class="text">
-			<div class="text__text"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim eum ratione et ad, placeat voluptate molestias quidem maiores reprehenderit quis voluptates non animi natus eaque labore, tempore, deleniti commodi? Deserunt.</div>
-			<div class="text__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim eum ratione et ad, placeat voluptate molestias quidem maiores reprehenderit quis voluptates non animi natus eaque labore, tempore, deleniti commodi? Deserunt.</div>
+			<div class="text__text">
+				<h1>Изучаю верстку сайтов</h1>
+				<p>Изучение данной сферы в IT специализации, для того, что бы в дальнейшем времени перейти на основную работу в данном направлении. <br> <span>Сроки на исполнение 3 года, начало положено: 26.08.2022г.</span></p>
+			</div>
+			<div class="text__text">
+				Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim eum ratione et ad, placeat voluptate molestias quidem maiores reprehenderit quis voluptates non animi natus eaque labore, tempore, deleniti commodi? Deserunt.
+			</div>
 		</div>
 	</div> <!-- container -->
+
+
+	<div class="btn">
+		<button type="button" class="btn__btn btn-color" onclick="handleButtonClick(this);">vetka</button>
+	</div>
+
+
+	<div class="container">
+		<div class="wrapper">
+			<div class="header_2">
+
+				<div class="header_2__logo">
+					<img src="/img/logo1.png" alt="">
+				</div>
+
+				<div class="header_2__menu">
+					<ul class="header_2__list">
+						<li><a href="" class="header_2__link header_2__link_start">Home</a></li>
+						<li><a href="" class="header_2__link">Java Script</a></li>
+						<li><a href="" class="header_2__link">basics</a></li>
+						<li><a href="" class="header_2__link">tegs</a></li>
+						<li><a href="" class="header_2__link">plan</a></li>
+					</ul>
+				</div>
+			</div>
+			<section class="content">
+				<div class="table_2">
+					<div class="table__grid">
+						<div class="table__colon">@1@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas delectus, veritatis asperiores cum dolores vero tenetur ipsa numquam assumenda quasi ex vitae praesentium a ad quas laborum et nihil aspernatur!</div>
+						<div class="table__colon">@2@</div>
+						<div class="table__colon">@3@</div>
+						<div class="table__colon">@4@</div>
+						<div class="table__colon">@5@</div>
+						<div class="table__colon">@6@</div>
+					</div>
+				</div>
+			</section>
+		</div>
+	</div>
+	<footer class="footer">
+		<div class="container">
+			<div class="footer__inner">
+				<div class="footer__items">
+					<div class="footer__item">
+						<div class="footer__logo">
+							<img src="/img/logo1.png" alt="">
+						</div>
+						<div class="footer__contact">
+							<p>Hello Anton</p>
+						</div>
+						<div class="footer__social">
+							<div class="footer__social-header">
+								<b>15k</b> followers
+							</div>
+							<div class="footer__social-content">
+								Follow Us:
+								<a href="#" target="_blank"> <!-- target="_blank" открывает ссылку в новой вкладке-->
+									<i class="fa-brands fa-facebook"></i>
+								</a>
+								<a href="#" target="_blank">
+									<i class="fa-brands fa-twitter"></i>
+								</a>
+								<a href="#" target="_blank">
+									<i class="fab fa-instagram"></i>
+								</a>
+								<br><p class="spinning_icon"><i class="fa fa-futbol-o fa-spin fa-2x"></i></p>
+								<i class="icon-search"></i>
+
+							</div>
+						</div> <!-- ====/footer__social====-->
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</footer>
+
+
+	<script>
+		// function handleButtonClick (myButton){
+		// 	console.log(myButton.textContent)
+		// 	if (myButton.textContent === "vetka"){
+		// 		myButton.textContent = "Fafor"
+		// 		console.log(myButton.textContent) "Fafor"
+		// 	}
+		// 	if (myButton.textContent === "Fafor"){
+		// 		myButton.textContent = "vetka"
+		// 	}
+		// }
+	</script>
+	<script src="https://kit.fontawesome.com/68ba1095a1.js" crossorigin="anonymous"></script>
 
 </body>
 </html>
